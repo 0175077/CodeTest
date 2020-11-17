@@ -60,8 +60,6 @@ AND area>0)
 select continent, name from world a
 where name <= all(select name from world b
 where a.continent = b.continent)
-
-#This cord is worked but, actually, i didn't understand why this cord is working
                
 #9
 #Find the continents where all countries have a population <= 25000000. Then find the names of the countries associated with these continents.
@@ -69,7 +67,8 @@ where a.continent = b.continent)
 
 
 
-
+#7,8 cord is worked but, actually, i didn't understand why this cord is working
+#I tried to understand correlated subqueries but, i didn't
 
 
 
