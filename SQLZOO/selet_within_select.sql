@@ -80,13 +80,4 @@ and b.name != a.name)
 
 
 
-#2020-11-17
-#7,8 cord is worked but, actually, i didn't understand why this cord is working
-#I tried to understand correlated subqueries but, i didn't
-
-#2020-11-18
-#finally, i became to understand the correlated subqueries
-
-
-
 
