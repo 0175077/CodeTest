@@ -65,12 +65,27 @@ where a.continent = b.continent)
 #Find the continents where all countries have a population <= 25000000. Then find the names of the countries associated with these continents.
 #Show name, continent and population.
 
+select name, continent, population from world a
+where 25000000 >= all(select population from world b
+where b.continent = a.continent)
+
+#10
+Some countries have populations more than three times that of any of their neighbours (in the same continent). Give the countries and continents.
+
+select name, continent from world a
+where population >= all(select population*3 from world b
+where a.continent = b.continent
+and b.name != a.name)
 
 
+
+
+#2020-11-17
 #7,8 cord is worked but, actually, i didn't understand why this cord is working
 #I tried to understand correlated subqueries but, i didn't
 
-
+#2020-11-18
+#finally, i became to understand the correlated subqueries
 
 
 
