@@ -62,7 +62,8 @@ where name = 'harrison ford')
 
 
 #9
-#List the films where 'Harrison Ford' has appeared - but not in the starring role. [Note: the ord field of casting gives the position of the actor. If ord=1 then this actor is in the starring role]
+#List the films where 'Harrison Ford' has appeared - but not in the starring role. [Note: the ord field of casting gives the position of the actor.
+#If ord=1 then this actor is in the starring role]
 
 select title from movie M
 join casting C on C.movieid = M.id
