@@ -1,0 +1,11 @@
+
+#2020-11-17
+7,8 cord  of 'select in select' in the folder SQLZOO is worked but, actually, i didn't understand why this cord is working
+I tried to understand correlated subqueries but, i didn't
+
+#2020-11-18
+I became to understood correlated subqueries a bit.
+
+#2020-11-18
+I thought that i understood JOIN when i did study JOIN.
+but, i realized that i didn't understand compeletly JOIN while study JOIN.
