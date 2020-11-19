@@ -9,3 +9,7 @@ I became to understood correlated subqueries a bit.
 #2020-11-18
 I thought that i understood JOIN when i did study JOIN.
 but, i realized that i didn't understand compeletly JOIN while study JOIN.
+
+#2020-11-19
+I need to study the 'set' fuction used in 4th cord of '입양 시각 구하기' in the PROGRAMERS folder.
+and then, i have to know what is '@'
